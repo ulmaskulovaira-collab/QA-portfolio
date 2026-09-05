@@ -1,0 +1,7 @@
+# Local Postman environments may contain tokens or credentials
+*.postman_environment.json
+.env
+
+# Local reports and screenshots
+reports/local/
+screenshots/local/
