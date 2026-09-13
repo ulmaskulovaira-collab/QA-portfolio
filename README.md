@@ -22,9 +22,10 @@
 | 1 | Яндекс Маршруты | Функциональное + расчёты | PDF-отчёт, Excel: анализ → кейсы → баги | ✅ |
 | 2 | Каршеринг — вёрстка | UI + функциональное | PDF-отчёт, чек-лист, баги | ✅ |
 | 3 | Место (Mesto) | Регресс | PDF-отчёт, чек-лист | ✅ |
-| 4 | SauceDemo | Автотесты Playwright | 26 UI-тестов, POM, PDF-отчёт | ✅ |
+| 4 | [SauceDemo](./qa-portfolio/04-playwright-saucedemo) | Автотесты Playwright + Python | 26 UI-тестов, POM, PDF-отчёт | ✅ |
 | 5 | Python Mini Projects | Базовый Python | 6 учебных проектов + отчёт | ✅ |
 | 6 | [Manual QA Practice](./qa-portfolio/05-manual-qa-practice) | Web, REST API и SQL | тест-кейсы, Postman-коллекция, SQL-проверки | ✅ |
+| 7 | [Заказы: Python + SQL](./qa-portfolio/06-order-data-tests) | Автотесты данных | SQLite, SQL-запросы, 6 проверок на Python | ✅ |
 
 Сводка найденных дефектов по предыдущим проектам: [BUGS-SUMMARY.md](./qa-portfolio/BUGS-SUMMARY.md)
 
@@ -59,6 +60,14 @@
 | Page Object Model | ✅ |
 | Стабильные локаторы (data-test) | ✅ |
 | E2E-сценарии: логин → заказ | ✅ |
+
+## 🔎 Быстро посмотреть код
+
+- [UI-автотесты SauceDemo на Python](./qa-portfolio/04-playwright-saucedemo/tests): вход, каталог, корзина и заказ.
+- [Автотесты заказов и данных](./qa-portfolio/06-order-data-tests/tests/test_orders.py): сумма, статусы, негативные сценарии и сохранение в SQLite.
+- [SQL-запросы для сверки данных](./qa-portfolio/06-order-data-tests/validation_queries.sql): JOIN, GROUP BY и поиск расхождений.
+
+Проект с заказами — самостоятельная учебная работа для портфолио; код с рабочих проектов не публикую.
 
 ## 🧪 06 · Manual QA Practice
 
