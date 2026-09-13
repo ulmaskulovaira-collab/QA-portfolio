@@ -1,37 +1,22 @@
-# 🐍 05 · Python Mini Projects
+# Небольшие программы на Python
 
-**Автор:** Ира Улмаскулова  
-**GitHub:** [ulmaskulovaira-collab](https://github.com/ulmaskulovaira-collab)
+[← На главную QA-портфолио](../README.md) · [Игры на Python в отдельном репозитории](https://github.com/ulmaskulovaira-collab/python-mini-projects)
 
-Небольшие учебные проекты на Python.  
-Показывают базовые навыки программирования, которые полезны для написания автотестов.
+Это **учебные упражнения по Python**, не автотесты. В каждой папке — один `main.py`; для запуска хватит Python, сторонние пакеты не нужны.
 
----
+| Программа | Что показывает |
+| --- | --- |
+| [Угадай число](./01_number_guessing/main.py) | циклы, условия, random |
+| [Бросок кубика](./02_dice_roller/main.py) | random и словари |
+| [Генератор паролей](./03_password_generator/main.py) | строки и выбор символов |
+| [Разбор email](./04_email_slicer/main.py) | работа со строками |
+| [Шифр Цезаря](./05_caesar_cipher/main.py) | функции и преобразование символов |
+| [Калькулятор](./06_calculator/main.py) | ввод и обработка исключений |
 
-## 📋 Проекты
-
-| № | Папка | Описание | Основные темы | Статус |
-|---|-------|----------|---------------|--------|
-| 01 | `01_number_guessing` | Игра «Угадай число» | `random`, циклы, условия | ✅ |
-| 02 | `02_dice_roller` | Симулятор кубика (ASCII) | `random`, словари | ✅ |
-| 03 | `03_password_generator` | Генератор паролей | `random`, `string` | ✅ |
-| 04 | `04_email_slicer` | Разделение email | строки, `split` | ✅ |
-| 05 | `05_caesar_cipher` | Шифр Цезаря | функции, `ord`/`chr` | ✅ |
-| 06 | `06_calculator` | Калькулятор выражений | `eval`, исключения | ✅ |
-
----
-
-## 🚀 Как запустить
+Например, чтобы запустить игру «Угадай число» из корня репозитория:
 
 ```bash
-cd 01_number_guessing
-python main.py
+python 05-python-mini-projects/01_number_guessing/main.py
 ```
 
-Все проекты работают **только на стандартной библиотеке Python**.
-
----
-
-## 📊 Отчёт
-
-Подробный итог работы → [ОТЧЁТ.md](./ОТЧЁТ.md)
+Для примеров **тестирования** с Python откройте [UI-автотесты](../qa-portfolio/04-playwright-saucedemo/README.md) и [проверки заказов с SQL](../qa-portfolio/06-order-data-tests/README.md).
